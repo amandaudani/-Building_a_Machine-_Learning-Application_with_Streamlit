@@ -1,9 +1,9 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import tensorflow as tf # type: ignore
-from PIL import Image
-import numpy as np
+from PIL import Image # type: ignore
+import numpy as np # type: ignore
 import matplotlib.pyplot as plt # type: ignore
-import time
+import time # type: ignore
 
 st.sidebar.title("Options")
 task = st.sidebar.selectbox("Choose a machine learning task", ["Image Classification", "Sentiment Analysis"])
